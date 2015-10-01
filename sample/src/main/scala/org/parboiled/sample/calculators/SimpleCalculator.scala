@@ -37,7 +37,5 @@ object RunSimpleCalculator {
       case None => throw new ParsingException("Invalid calculation expression:\n" +
         ErrorUtils.printParseErrors(parsingResult))
     }
-    // val parseTreePrintOut = org.parboiled.support.ParseTreeUtils.printNodeTree(parsingResult)
-    // println(parseTreePrintOut)
   }
 }
