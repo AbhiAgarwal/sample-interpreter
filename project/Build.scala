@@ -128,14 +128,19 @@ object Build extends Build {
     .settings(basicSettings: _*)
 
 
-  lazy val examplesJava = Project("examples-java", file("examples-java"))
-    .dependsOn(parboiledJava)
-    .settings(basicSettings: _*)
-    .settings(noPublishing: _*)
-    .settings(javacOptions += "-g") // needed for bytecode rewriting
+  // lazy val examplesJava = Project("examples-java", file("examples-java"))
+  //   .dependsOn(parboiledJava)
+  //   .settings(basicSettings: _*)
+  //   .settings(noPublishing: _*)
+  //   .settings(javacOptions += "-g") // needed for bytecode rewriting
 
 
-  lazy val examplesScala = Project("examples-scala", file("examples-scala"))
+  // lazy val examplesScala = Project("examples-scala", file("examples-scala"))
+  //   .dependsOn(parboiledScala)
+  //   .settings(basicSettings: _*)
+  //   .settings(noPublishing: _*)
+
+  lazy val sampleScala = Project("sample", file("sample"))
     .dependsOn(parboiledScala)
     .settings(basicSettings: _*)
     .settings(noPublishing: _*)
