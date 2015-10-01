@@ -99,7 +99,7 @@ object Build extends Build {
   )
 
   lazy val root = Project("root", file("."))
-    .aggregate(parboiledCore, parboiledJava, parboiledScala, examplesJava, examplesScala)
+    .aggregate(parboiledCore, parboiledJava, parboiledScala, sampleScala)
     .settings(basicSettings: _*)
     .settings(noPublishing: _*)
 
