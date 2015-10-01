@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Abhis-MBP.home" name="org.parboiled.buffers.DefaultInputBufferTest" tests="21" failures="0" timestamp="1 Oct 2015 16:43:45 GMT" time="0.449" errors="0">
+  <testcase name="testMultiliner" time="0.137" classname="org.parboiled.buffers.DefaultInputBufferTest"/>
+  <testcase name="testOneliner" time="0.001" classname="org.parboiled.buffers.DefaultInputBufferTest"/>
+  <testcase name="testEmptyIndentDedentInputBuffer" time="0.0" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBuffer0" time="0.006" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBuffer1" time="0.001" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBuffer2" time="0.021" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBuffer3" time="0.002" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBuffer4" time="0.001" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBufferEmptyLines" time="0.001" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBufferIllegalIndent1" time="0.001" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testIndentDedentInputBufferIllegalIndent2" time="0.0" classname="org.parboiled.buffers.IndentDedentInputBufferTest"/>
+  <testcase name="testMutableInputBuffer" time="0.001" classname="org.parboiled.buffers.MutableInputBufferTest"/>
+  <testcase name="testAdd" time="0.001" classname="org.parboiled.common.ArrayBuilderTest"/>
+  <testcase name="testImmutableLinkedList" time="0.001" classname="org.parboiled.common.ImmutableLinkedListTest"/>
+  <testcase name="testIntArrayStack" time="0.002" classname="org.parboiled.common.IntArrayStackTest"/>
+  <testcase name="testStringEscaping" time="0.003" classname="org.parboiled.common.StringUtilsTest"/>
+  <testcase name="testGetTypeArguments" time="0.004" classname="org.parboiled.common.UtilsTest"/>
+  <testcase name="testHumanize" time="0.001" classname="org.parboiled.common.UtilsTest"/>
+  <testcase name="testMultiCharactersOps" time="0.001" classname="org.parboiled.support.CharactersTest"/>
+  <testcase name="testSimpleCharactersOps" time="0.003" classname="org.parboiled.support.CharactersTest"/>
+  <testcase name="testValueStack" time="0.003" classname="org.parboiled.support.ValueStackTest"/>
+</testsuite>
