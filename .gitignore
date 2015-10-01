@@ -20,6 +20,7 @@ project/plugins/project/
 /project/boot/
 /project/plugins/project
 target/
+test-output/
 lib_managed/
 src_managed/
 test-output/
